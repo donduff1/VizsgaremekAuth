@@ -1,0 +1,12 @@
+<div class="movie-container">
+  <div class="movie-row">
+    <div class="movie-item" *ngFor="let movie of userData">
+      <div class="movie-content">
+        <img src="https://image.tmdb.org/t/p/w600_and_h900_bestv2{{ movie.poster_path }}" alt="{{ movie.title }}">
+        <h1>{{ movie.title }}</h1>
+        <p>{{ movie.review }}</p>
+        <p>{{ movie.rating }}</p>
+      </div>
+    </div>
+  </div>
+</div>

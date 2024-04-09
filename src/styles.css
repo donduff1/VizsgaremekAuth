@@ -1,0 +1,9 @@
+html, body { height: 100%; }
+
+body{
+    background-image: url('../src/assets/hatterkep.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    background-attachment: fixed;
+}

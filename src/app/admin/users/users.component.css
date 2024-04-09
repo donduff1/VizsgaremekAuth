@@ -1,0 +1,35 @@
+.container {
+  max-width: 450px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+
+}
+h1{
+  font-size: 19px; 
+  text-align: center;
+  margin-top: 10px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.form-label {
+  font-size: 15px;
+}
+
+.btn {
+  cursor: pointer;
+
+}
+
+.float-end {
+  float: right;
+  background-color: red;
+  border-color: red;
+}
+

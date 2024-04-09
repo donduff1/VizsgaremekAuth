@@ -1,0 +1,15 @@
+.navbar-nav {
+  padding: 5px; 
+}
+
+.nav-link {
+  padding: 2px; 
+  margin-inline: 17px;
+}
+
+.ml-auto{
+  margin-left: auto;
+}
+.mr-auto{
+  margin-right: 90px;
+}

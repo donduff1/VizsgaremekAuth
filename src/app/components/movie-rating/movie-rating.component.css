@@ -1,0 +1,19 @@
+.container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  border: 2px solid #ccc;
+  padding: 20px;
+}
+
+.container h1 {
+  font-size: 24px; 
+}
+
+.container h2 {
+  font-size: 18px; 
+}
+
+.container h2:nth-child(n+2) {
+  margin-top: 10px; 
+}

@@ -1,0 +1,58 @@
+/* A fő konténer elrendezése */
+.movie-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 10px; /* Kisebb margin a felső részen */
+  margin-left: 10px; /* Kisebb margin a bal oldalon */
+  margin-right: 10px; /* Kisebb margin a jobb oldalon */
+}
+
+/* Sorok elrendezése */
+.movie-row {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+/* Egy film elem elrendezése */
+.movie-item {
+  width: calc(25% - 16px); /* Csökkentett padding az elemeken belül */
+  padding: 8px; /* Kisebb padding */
+  box-sizing: border-box;
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.movie-item:hover {
+  transform: translateY(-5px); 
+}
+
+/* A film poszterének stílusa */
+.movie-item img {
+  max-width: 70%; /* Kisebb képméret beállítása */
+  height: auto;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+/* A film címe */
+.movie-item h1 {
+  font-size: 16px; /* Kisebb címméret */
+  margin-top: 8px; /* Kisebb margó felül */
+  margin-bottom: 4px; /* Kisebb margó lent */
+  color: #333;
+}
+
+/* A film leírása */
+.movie-item p {
+  font-size: 12px; /* Kisebb méretű szöveg */
+  margin-bottom: 4px; /* Kisebb margó lent */
+  color: #666;
+}
